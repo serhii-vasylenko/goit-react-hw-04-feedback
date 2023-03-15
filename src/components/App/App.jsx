@@ -13,7 +13,7 @@ const App = () => {
   const keys = Object.keys(options);
   const values = Object.values(options);
 
-  const handleIncement = option => {
+  const handleIncrement = option => {
     switch (option) {
       case 'good':
         setGood(state => state + 1);
@@ -42,7 +42,7 @@ const App = () => {
   return (
     <>
       <Section title="Please leave your feedback">
-        <FeedbackOptions options={keys} onLeaveFeedback={handleIncement} />
+        <FeedbackOptions options={keys} onLeaveFeedback={handleIncrement} />
       </Section>
 
       <Section title="Statistics">
