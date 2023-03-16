@@ -4,7 +4,7 @@ import Statistics from 'components/Statistics/Statistics';
 import Section from 'components/Section/Section';
 import Notification from 'components/Notification/Notification';
 
-const App = () => {
+const Dashboard = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
@@ -61,4 +61,4 @@ const App = () => {
     </>
   );
 };
-export default App;
+export default Dashboard;
